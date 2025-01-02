@@ -1,0 +1,62 @@
+body {
+    background-color: lightgrey;
+    color: whitesmoke;
+  }
+
+.container {
+    background-color: #2A2C2E;
+    font-size: small;
+    height: 70px;
+    border-radius: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar, ul, button {
+    display: flex;
+  }
+
+  .container .navbar {
+    justify-content: space-between;
+  }
+
+  .navbar ul li {
+    list-style-type: none;
+  }
+  
+  .container .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: whitesmoke   ;
+  }
+  
+  .navbar a:hover {
+    color: blue;
+  }
+
+  .button {
+    background-color: yellow;
+  width: 90px;
+  height: 40px; 
+  /* margin-top: -15px; */
+  border-radius: 10px;
+    /* margin-right: -10px; */
+    /* margin-left: 70px; */
+  font-size: 16px;
+  /* line-height: 1.5; */
+}
+

@@ -1,4 +1,66 @@
-* {
+/* * {
     box-sizing: border-box;
+} */
+/* parent navbar */
+.navbar ul  {
+    list-style-type: none;
+    height: 70px;
+    background-color: #2A2C2E;
+    padding: 20px, 24px;
+    margin: 0px; 
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
 }
 
+/* #page-wrapper {
+    position: relative;
+} */
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar li  {
+    text-align: center;
+    font-size: small;
+}
+
+.bbs-logo   {
+    position: relative;
+    /* margin-top: -20px; */
+    margin-right: 70px;
+    margin-left: -170px;
+}
+
+.button {
+    position: relative;
+    background-color: yellow;
+  width: 90px;
+  height: 40px;
+  /* top: 50%; */
+  margin-top: -15px;
+  border-radius: 10px;
+  margin-right: -120px;
+  margin-left: 70px;
+  font-size: 16px;
+  line-height: 1.5;
+  /* z-index: 5; */
+}
+
+.button:hover  {
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+}
