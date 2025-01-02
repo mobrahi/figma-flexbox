@@ -1,14 +1,8 @@
- * {
-    padding: 0;
-    margin: 0;
-  } 
-
   body {
     background-color: lightgrey;
     color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
-
 
   .navbar-wrapper {
     display: flex;
@@ -23,30 +17,16 @@
     opacity: 96%;
     background-color:#2A2C2E;
     border-radius: 20px;
+    position: sticky;
   }
   
-  /* .links {
-    align-content: center;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .links a {
-    margin-right: 10px;
-  } */
-
   .middle-navbar ul li {
     list-style-type: none;
     display: inline;
     margin-right: 20px;
-  }
-
-  a:link {
-    color: white;
-  }
-
-  a:hover {
-    color: hotpink;
+    /* align-content: center; */
+    /* display: flex; */
+    justify-content: space-evenly;
   }
 
   a:link { 
@@ -67,14 +47,7 @@
 
   .button {
     background-color: yellow;
-  width: 80px;
-  height: 40px; 
-  border-radius: 10px;
-}
-    
-
-  /* .middle-navbar ul {
-     display: flex;
-  } */
-
-  
+    width: 80px;
+    height: 40px; 
+    border-radius: 10px;
+} 
