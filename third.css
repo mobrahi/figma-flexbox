@@ -1,4 +1,10 @@
-  body {
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+ }
+
+ body {
     background-color: lightgrey;
     color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -9,11 +15,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    /* width: 1200px;
+    padding: 20px 24px; */
+    margin: 16px;
+    padding: 16px;
     height: 96px;
-    top: 24px;
-    left: 264px;
-    padding: 20px 24px 20px 24px;
+    /* top: 24px;
+    left: 264px; */
     opacity: 96%;
     background-color:#2A2C2E;
     border-radius: 20px;
